@@ -29,7 +29,7 @@ public class BankCheckingAccountService implements BankCheckingAccountServiceInt
 		
 		bankAccount.setAccountNumber(bankCheckingAccountModel.getAccountNumber());
 		bankAccount.setAmount(bankCheckingAccountModel.getAmount());
-		bankAccount.setTypeAccountNumber(bankCheckingAccountModel.getTypeAccountNumber());
+		bankAccount.setType(bankCheckingAccountModel.getType());
 		bankAccount.setStatus(bankCheckingAccountModel.getStatus());
 		
 		insertBankAccount(bankAccount).subscribe();
