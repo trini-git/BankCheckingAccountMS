@@ -19,6 +19,8 @@ public class BankCheckingAccountModel {
 	
 	private String status;
 	
+	private String bankName;
+	
 	private List<BcaClient> bcaClient;
 
 	public String getId() {
@@ -68,5 +70,13 @@ public class BankCheckingAccountModel {
 	public void setBcaClient(List<BcaClient> bcaClient) {
 		this.bcaClient = bcaClient;
 	}
-	
+
+	public String getBankName() {
+		return bankName;
+	}
+
+	public void setBankName(String bankName) {
+		this.bankName = bankName;
+	}
+		
 }
